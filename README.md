@@ -1,2 +1,2 @@
 # hectorcrdaz.github.io
-Un blog de mi para mi, y para quien sea que lo lea
+<h2> Héctor Manuel Alvarado Ordaz </h2>
