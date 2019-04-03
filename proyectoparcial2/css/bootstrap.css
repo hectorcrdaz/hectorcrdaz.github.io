@@ -1571,6 +1571,13 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
+
+.scrollable-menu {
+    height: auto;
+    max-height: 400px;
+    overflow-x: hidden;
+}
+
 .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -4158,6 +4165,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     padding-left: 0;
   }
 }
+
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
