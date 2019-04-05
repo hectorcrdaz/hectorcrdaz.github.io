@@ -97,8 +97,9 @@
       <p>Encuentra tu hotel ideal y compara precios <br>de distintas páginas web</p>
     </div>
 
+    <br>
     <div class="row">
-      <div class="col-xs-9 col-md-4">
+      <div class="col-xs-9 col-sm-7 col-md-4">
         <input type="text" class="form-control" placeholder="Ej.: Acapulco" >
         <span class="glyphicon glyphicon-search"></span>
       </div>
@@ -106,8 +107,7 @@
       <div class="form-group col-md-2 visible-lg-inline-block">
             <div class='input-group date' id='datetimepicker6'>
                 <input type='text' class="form-control" />
-                <span class="input-group-addon">
-                    <span class="glyphicon glyphicon-calendar"></span>
+                
                 </span>
             </div>
         </div>
@@ -125,42 +125,34 @@
 
    
     <div class="dropdown  col-md-2 visible-lg-inline-block">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    Dropdown
+  <button class="habitaciones btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    <span class="glyphicon glyphicon-user">Habitación</span>
     <span class="caret"></span>
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">Separated link</a></li>
+    <li><a href="#">Habitación individual</a></li>
+    <li><a href="#">Habitación doble</a></li>
+    <li><a href="#">Familiar </a></li>
+    <li><a href="#">Múltiple</a></li>
   </ul>
 </div>
 
-<div class="btn-group" role="group">
-  <button type="button" class="btn btn-primary">Primary</button>
+<div class="btn-group visible-lg-sm-xs-inline-block" role="group">
+  <button type="button" class="btn btn-primary">Buscar</button>
 </div>
-
  </div>
-
 </div>
-<script src="js/bootstrap.js"></script>
-<script type="text/javascript">
-    $(function () {
-        $('#datetimepicker6').datetimepicker();
-        $('#datetimepicker7').datetimepicker({
-            useCurrent: false //Important! See issue #1075
-        });
-        $("#datetimepicker6").on("dp.change", function (e) {
-            $('#datetimepicker7').data("DateTimePicker").minDate(e.date);
-        });
-        $("#datetimepicker7").on("dp.change", function (e) {
-            $('#datetimepicker6').data("DateTimePicker").maxDate(e.date);
-        });
-    });
-</script>
 
+<div class="row>
+<h4> ¿No sabes a dónde ir? Déjanos inspirarte </h4>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>    
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"
 </body>
 
 </html>
