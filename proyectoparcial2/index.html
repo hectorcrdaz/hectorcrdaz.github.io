@@ -90,69 +90,95 @@
 
 
   <div class="container">
-    <div class="text-center">
-        <img src="http://pluspng.com/img-png/trivago-png-open-2000.png" class="img-fluid d-none" alt="" width="189px" style="margin-top: 44px; margin-left: -5px;">
-    </div>
+        <div class="text-center">
+            <img src="http://pluspng.com/img-png/trivago-png-open-2000.png" class="img-fluid d-none" alt="" width="189px" style="margin-top: 44px; margin-left: -5px;">
+        </div>
 
-    <div class="welcometext text-center">
-      <p>Encuentra tu hotel ideal y compara precios <br>de distintas páginas web</p>
-    </div>
+        <div class="welcometext text-center">
+          <p>Encuentra tu hotel ideal y compara precios <br>de distintas páginas web</p>
+        </div>
 
-    <br>
-    <div class="row">
-      <div class="col-xs-8 col-sm-9 col-md-10 col-lg-4">
-        <input type="text" class="form-control" placeholder="Ej.: Acapulco" >
-        <span class="glyphicon glyphicon-search"></span>
-      </div>
+        <br>
+        <div class="row">
 
-      <div class="col-md-2 col-sm-2 col-xs-7 visible-lg-inline-block">
-            <div class="form-group">
+          <!-- Buscador -->
+          <div class="col-xs-8 col-sm-9 col-md-10 col-lg-4">
+            <input type="text" class="form-control" placeholder="Ej.: Acapulco" >
+            <span class="glyphicon glyphicon-search"></span>
+          </div>
+
+          <!-- Calendarios -->
+
+          <div class="col-md-2 col-sm-2 col-xs-7 visible-lg-inline-block">
+              <div class="form-group">
                 <div class='input-group date' id='datetimepicker6'>
                     <input type='text' class="form-control" placeholder="Llegada" />
                     <span class="input-group-addon">
-                      <span class="glyphicon glyphicon-calendar"></span>
+                    <span class="glyphicon glyphicon-calendar"></span>
                     </span>
                 </div>
-            </div>
-          </div>
+              </div>
+          </div>        
 
-        <div class="col-md-2 col-sm-2 col-xs-7 visible-lg-inline-block">
-            <div class="form-group">
+          <div class="col-md-2 col-sm-2 col-xs-7 visible-lg-inline-block">
+              <div class="form-group">
                 <div class='input-group date' id='datetimepicker7'>
                     <input type='text' class="form-control" placeholder="Salida" />
                     <span class="input-group-addon">
-                      <span class="glyphicon glyphicon-calendar"></span>
+                    <span class="glyphicon glyphicon-calendar"></span>
                     </span>
                 </div>
-            </div>
+              </div>
           </div>
 
+          <!-- Habitaciones -->
+       
+          <div class="dropdown  col-md-2 visible-lg-inline-block">
+              <button class="habitaciones btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <span class="glyphicon glyphicon-user">Habitación</span>
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Habitación individual</a></li>
+                <li><a href="#">Habitación doble</a></li>
+                <li><a href="#">Familiar </a></li>
+                <li><a href="#">Múltiple</a></li>
+              </ul>
+          </div>
+
+          <!-- Buscar -->
+
+          <div class="btn-group visible-lg-sm-xs-inline-block" role="group">
+              <button type="button" class="btn btn-primary">Buscar</button>
+          </div>
+
+        </div>
+
+  </div>
+
+  <div class="container">
+      <div class="text-left">
+        <img src="image/magazine.jpg" class="img-fluid d-none" alt="" width="220px" style="margin-top: 90px; margin-left: -5px;">
+      </div>
+      <br>
+      
+      <div class="subtitulos"> ¿No te decides? Inspírate con todas las experiencias en hoteles de trivago magazine </div>
+  </div>
+          
 
 
 
-   
-    <div class="dropdown  col-md-2 visible-lg-inline-block">
-  <button class="habitaciones btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    <span class="glyphicon glyphicon-user">Habitación</span>
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="#">Habitación individual</a></li>
-    <li><a href="#">Habitación doble</a></li>
-    <li><a href="#">Familiar </a></li>
-    <li><a href="#">Múltiple</a></li>
-  </ul>
-</div>
 
-<div class="btn-group visible-lg-sm-xs-inline-block" role="group">
-  <button type="button" class="btn btn-primary">Buscar</button>
-</div>
- </div>
-</div>
-            
+
+
+
+
+
+
+
+            <!-- Scripts -->
 <script src="js/bootstrap.js"></script>
 <script src="js/bootstrap-datetimepicker.min.js"></script>
-
 <script type="text/javascript">
     $(function () {
         $('#datetimepicker6').datetimepicker();
